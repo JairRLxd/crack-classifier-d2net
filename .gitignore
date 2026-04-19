@@ -1,0 +1,42 @@
+__pycache__/
+.venv/
+.venv313/
+.vscode/
+.tmp/
+*.pyc
+*.pyo
+
+# Datos y resultados generados
+
+qualitative/
+imagenes procesadas/
+imagenes procesadas conservador/
+imagenes procesadas suave/
+imagenes procesadas suave2/
+csv/
+
+# Resultados de la pipeline: se commitean solo reportes ligeros
+# (classification_report.txt, model_config.json, confusion_matrix.npy,
+#  confusion_matrix_labels.npy, feature_importances.npy).
+# Todo lo demas (modelos entrenados, descriptores, histogramas, predicciones) se regenera.
+outputs/**/*.joblib
+outputs/**/*.d2-net
+outputs/**/*.mat
+outputs/**/*.npz
+outputs/**/*.npy
+!outputs/**/confusion_matrix.npy
+!outputs/**/confusion_matrix_labels.npy
+!outputs/**/feature_importances.npy
+
+# Subcarpetas con artefactos intermedios por imagen
+outputs/**/moved_d2net/
+outputs/**/descriptors_only/
+# Archivos derivados de extraccion
+*.d2-net
+*.npz
+*.npy
+*.mat
+
+# Notebooks temporales
+.ipynb_checkpoints/
+.claude/

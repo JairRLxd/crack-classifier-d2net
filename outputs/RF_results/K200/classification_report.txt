@@ -1,0 +1,9 @@
+                     precision    recall  f1-score   support
+
+Multibranched_Crack       0.95      0.77      0.85      3000
+      Simple_Cracks       0.78      0.94      0.85      3000
+      Without_Crack       0.95      0.94      0.94      3000
+
+           accuracy                           0.88      9000
+          macro avg       0.89      0.88      0.88      9000
+       weighted avg       0.89      0.88      0.88      9000

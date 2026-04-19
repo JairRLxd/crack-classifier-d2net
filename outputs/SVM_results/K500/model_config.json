@@ -1,0 +1,22 @@
+{
+  "train_bow_dir": "outputs\\KmeansResults\\K500T2",
+  "model_dir": "outputs\\KmeansResults\\K500T2\\svm_500T2",
+  "scaler": "passthrough",
+  "use_scaler": false,
+  "scaler_with_mean": false,
+  "C": 1.0,
+  "kernel": "poly",
+  "degree": 5,
+  "gamma": "scale",
+  "coef0": 0.5,
+  "shrinking": true,
+  "probability": false,
+  "tol": 0.0001,
+  "cache_size": 512,
+  "class_weight": null,
+  "verbose": false,
+  "max_iter": -1,
+  "decision_function_shape": "ovr",
+  "break_ties": false,
+  "random_state": 42
+}
